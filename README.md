@@ -4,7 +4,18 @@ This repo combine Grounded-SAM: Detect and Segment Everything with Text Prompt, 
 By using Grounded-SAM to get segments and masks for further use.
 By using LaMa to inpaint. 
 
-<!-- ![alt text](https://github.com/wuianski/GroundedSAMLaMA/blob/main/image.jpg) -->
+segments with colored mask and label
+
+![](https://github.com/wuianski/GroundedSAMLaMA/blob/main/outputs/raw_image/grounded_sam_output_label.jpg)
+
+inpaint by mask
+
+![](https://github.com/wuianski/GroundedSAMLaMA/blob/main/outputs/raw_image/inpainted_with_masks_3.png)
+
+inpaint by invert mask
+
+![](https://github.com/wuianski/GroundedSAMLaMA/blob/main/outputs/raw_image/inpainted_with_masks_invertinvert_1.png)
+
 
 ### Environment setup
 
