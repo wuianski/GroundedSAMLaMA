@@ -8,6 +8,10 @@ segments with colored mask and label
 
 ![](https://github.com/wuianski/GroundedSAMLaMA/blob/main/outputs/grounded_sam_output_label.jpg)
 
+just segments
+
+![](https://github.com/wuianski/GroundedSAMLaMA/blob/main/outputs/objects_img_notrans.jpg)
+
 inpaint by mask
 
 ![](https://github.com/wuianski/GroundedSAMLaMA/blob/main/outputs/raw_image/inpainted_with_masks_3.png)
