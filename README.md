@@ -6,7 +6,7 @@ By using LaMa to inpaint.
 
 segments with colored mask and label
 
-![](https://github.com/wuianski/GroundedSAMLaMA/blob/main/outputs/raw_image/grounded_sam_output_label.jpg)
+![](https://github.com/wuianski/GroundedSAMLaMA/blob/main/outputs/grounded_sam_output_label.jpg)
 
 inpaint by mask
 
