@@ -4,6 +4,8 @@ This repo combine Grounded-SAM: Detect and Segment Everything with Text Prompt, 
 By using Grounded-SAM to get segments and masks for further use.
 By using LaMa to inpaint. 
 
+<!-- ![alt text](https://github.com/wuianski/GroundedSAMLaMA/blob/main/image.jpg) -->
+
 ### Environment setup
 
 Conda:
@@ -54,7 +56,7 @@ wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alp
 
 ```python
 export CUDA_VISIBLE_DEVICES=0
-python grounded_sam_ian.py \
+python grounded_sam_demo.py \
   --config GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py \
   --grounded_checkpoint groundingdino_swint_ogc.pth \
   --sam_checkpoint sam_vit_h_4b8939.pth \
@@ -80,7 +82,7 @@ unzip big-lama.zip
 **Step 2: Running lama_inpaint_ian.py**
 
 ```python
-lama_inpaint_ian.py \
+python lama_inpaint_demo.py \
   --input_img outputs/raw_image.png \
   --input_mask_glob "outputs/Mask/mask*.png" \
   --output_dir outputs \
